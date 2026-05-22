@@ -1,6 +1,5 @@
 """
 server.py
-Put this file in your GitHub repo 
 Run via launcher.py, NOT directly.
 """
 
@@ -12,7 +11,7 @@ import os
 import subprocess
 import threading
 
-PORT = 6000
+PORT = 3000
 REPO_DIR = os.path.dirname(os.path.abspath(__file__))
 
 # Secret is loaded from /var/www/.env
