@@ -12,7 +12,7 @@ import os
 import subprocess
 import threading
 
-PORT = 5000
+PORT = 6000
 REPO_DIR = os.path.dirname(os.path.abspath(__file__))
 
 # Secret is loaded from /var/www/.env
